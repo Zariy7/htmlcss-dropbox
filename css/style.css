@@ -151,3 +151,8 @@ main img{
     width: 50%;
     height: calc(100vw / 6);
 }
+
+hr{
+    width: 100%;
+    border: 1px solid gray;
+}
