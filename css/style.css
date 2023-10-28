@@ -109,3 +109,10 @@ main img{
 .gap-20{
     gap: 20px;
 }
+
+.dropbox-style-button-alternative{
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    width: fit-content;
+}
