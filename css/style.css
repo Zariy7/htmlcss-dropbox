@@ -68,7 +68,7 @@ li{
     max-width: 1200px;
     margin: 20px auto;
     position: absolute;
-    bottom: 0;
+    bottom: -10%;
 }
 
 .col-35{
