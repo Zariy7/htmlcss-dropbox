@@ -83,10 +83,13 @@ li{
     width: calc(100% / 3 - 20px);
 }
 
+.col-33-nogap{
+    width: calc(100% / 3);
+}
+
 .col-100{
     width: 100%;
 }
-
 
 .col-35 div{
     margin-bottom: 20px;
@@ -114,4 +117,37 @@ main img{
     color: black;
     padding: 5px 20px;
     width: fit-content;
+}
+
+.bg-blue{
+    background-color: rgb(1, 1, 136);
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-lightgreen{
+    background-color: lightgreen;
+}
+
+.bg-burgundy{
+    background-color: rgb(109, 22, 22);
+}
+
+.bg-cyan{
+    background-color: rgb(25, 70, 122);
+}
+
+.bg-yellow{
+    background-color: rgb(196, 196, 0);
+}
+
+.bg-dirtywhite{
+    background-color: rgb(207, 207, 207);
+}
+
+.square{
+    width: 50%;
+    height: calc(100vw / 6);
 }
