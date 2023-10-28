@@ -17,6 +17,10 @@ header{
 .row{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between-center{
     justify-content: space-between;
     align-items: center;
 }
@@ -36,10 +40,6 @@ li{
 .flex{
     display: flex;
     justify-content: space-between;
-}
-
-.col-33{
-    width: (100% / 3 - 20px);
 }
 
 .dropbox-style-button{
@@ -79,6 +79,33 @@ li{
     width: 65%;
 }
 
+.col-33{
+    width: calc(100% / 3 - 20px);
+}
+
+.col-100{
+    width: 100%;
+}
+
+
+.col-35 div{
+    margin-bottom: 20px;
+}
+
 main img{
     width: 100%;
+}
+
+.small-center-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.border-solid{
+    border: 1px solid grey;
+}
+
+.gap-20{
+    gap: 20px;
 }
