@@ -51,6 +51,8 @@ li{
 
 /* MAIN CLASSES */
 
+
+
 .bg-lightblue{
     background-color: rgb(101, 142, 180);
 }
@@ -151,6 +153,10 @@ main img{
     color: gray;
 }
 
+.color-violet{
+    color: rgb(116, 59, 111);
+}
+
 .square{
     width: 50%;
     height: calc(100vw / 6);
@@ -188,3 +194,26 @@ footer > .big-center-container{
     color: white;;
 }
 
+footer ul > li{
+    padding: 10px 0px;
+}
+
+hr{
+    margin: 20px 0px;
+}
+
+.pad-30-all{
+    padding: 30px;
+}
+
+.pad-30-vert{
+    padding: 30px 0px;
+}
+
+.marg-30-all{
+    margin: 30px;
+}
+
+.text-center{
+    text-align: center;
+}
