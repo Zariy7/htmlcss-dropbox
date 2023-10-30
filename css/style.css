@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
 /* HEADER CLASSES */
@@ -147,9 +148,14 @@ main img{
     background-color: rgb(207, 207, 207);
 }
 
+.color-gray{
+    color: gray;
+}
+
 .square{
     width: 50%;
     height: calc(100vw / 6);
+    position: relative;
 }
 
 hr{
@@ -168,4 +174,12 @@ footer{
 footer > .big-center-container{
     position: relative;
     color: white;;
+}
+
+.square > img{
+    width: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
 }
