@@ -5,6 +5,8 @@
     line-height: 1.4;
 }
 
+/* GENERIC CLASSES ARE SCATTERED AROUND BECAUSE THEY WERE WRITTEN AS NEEDED */
+
 /* HEADER CLASSES */
 
 header{
@@ -185,6 +187,10 @@ hr{
     color: blue;
 }
 
+.margin-auto{
+    margin: auto;
+}
+
 /* FOOTER CLASSES */
 
 footer{
@@ -220,4 +226,12 @@ hr{
 
 .text-center{
     text-align: center;
+}
+
+.blue-check li{
+    margin-bottom: 20px;
+}
+
+.one-border-down{
+    border-bottom: 1px solid gray;
 }
